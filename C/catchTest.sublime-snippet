@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[TEST_CASE("${1:Name the Test}", "${2:Describe the test}")
+{
+	${3:}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>catchTest</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c</scope>
+</snippet>

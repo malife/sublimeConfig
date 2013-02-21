@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[#ifndef _${1:INCLUSION_GUARD}_
+#define _${1:INCLUSION_GUARD}_
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+${2:}
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // _${1:INCLUSION_GUARD}_]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>once</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c</scope>
+</snippet>
