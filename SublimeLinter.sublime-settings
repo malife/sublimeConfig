@@ -1,0 +1,24 @@
+{
+    "sublimelinter": false,
+
+    "sublimelinter_executable_map":
+    {
+    	 "c_cpplint": "/Users/lizarraga/Documents/Mariano/Development/scripts/cpplint.py" 
+    },
+
+    /*
+        Maps syntax names to linters. This allows variations on a syntax
+        (for example "Python (Django)") to be linted. The key is
+        the name of the syntax **as it appears in the syntax list
+        at the bottom right of the window**, and the value
+        is the linter name **as listed in the README** (all lowercase)
+        that the syntax maps to.
+    */
+    "sublimelinter_syntax_map":
+    {
+        "Python Django": "python",
+        "Ruby on Rails": "ruby",
+        "C++": "c_cpplint", 
+        "C": "c_cpplint" 
+    }
+}
