@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+#ifndef UNIT_TEST
+${1: Real Time Code}
+#else
+${2:Unit Testing Code}
+#endif
+$3:
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ifu</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c</scope>
+</snippet>
